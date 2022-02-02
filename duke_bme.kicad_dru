@@ -4,3 +4,6 @@
 
 (rule trace
    (constraint track_width (min 0.5mm)))
+
+(rule hole
+   (constraint hole_size (min 0.7mm)))
