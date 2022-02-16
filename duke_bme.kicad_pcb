@@ -5,6 +5,13 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "BME Project Template")
+    (date "2022-02-16")
+    (rev "01")
+    (company "Mark Palmeri (Duke University)")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -78,15 +85,6 @@
 
   (gr_rect (start 101.6 50.8) (end 203.2 152.4) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp 1fa508ef-df83-4c99-846b-9acf535b3ad9))
   (gr_text "Net ID" (at 195.58 147.32) (layer "B.Cu") (tstamp 3249bd81-9fd4-4194-9b4f-2e333b2195b8)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (gr_text "Insert Date Here" (at 213.36 193.04) (layer "User.1") (tstamp 89c0bc4d-eee5-4a77-ac35-d30b35db5cbe)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (gr_text "Duke BME Project Template" (at 198.12 190.5) (layer "User.1") (tstamp be645d0f-8568-47a0-a152-e3ddd33563eb)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (gr_text "00" (at 271.78 193.04) (layer "User.1") (tstamp c8b6b273-3d20-4a46-8069-f6d608563604)
     (effects (font (size 1 1) (thickness 0.15)))
   )
 

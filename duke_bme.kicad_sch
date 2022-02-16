@@ -4,22 +4,16 @@
 
   (paper "A4")
 
+  (title_block
+    (title "BME Project Template")
+    (date "2022-02-16")
+    (rev "01")
+    (company "Mark Palmeri (Duke University)")
+  )
+
   (lib_symbols
   )
 
-
-  (text "Insert Date Here" (at 207.01 194.31 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 6f1beb86-67e1-46bf-8c2b-6d1e1485d5c0)
-  )
-  (text "Duke BME Project Template" (at 186.69 190.5 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 8174b4de-74b1-48db-ab8e-c8432251095b)
-  )
-  (text "00" (at 269.24 194.31 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid a62609cd-29b7-4918-b97d-7b2404ba61cf)
-  )
 
   (sheet_instances
     (path "/" (page "1"))
